@@ -5,5 +5,5 @@ In this project I was learning moment, local storage and expanding on Jquery. Th
 ## Links
 [Workday Scheduler](https://beefs4000.github.io/Work-Day-Scheduler/)
 ## Images
-![Scheduler Screenshot](Assets/Screenshot.png)
+![Scheduler Screenshot](Assets/Screenshot .png)
 

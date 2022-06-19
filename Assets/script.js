@@ -70,7 +70,8 @@ function createTimeBlock(hour) {
 
     const textDiv = $("<div>");
     textDiv.attr('class', 'textarea-col col-8');
-    const textInput = $('<textarea cols="30" rows="3">');
+    const textInput = $('<textarea rows="3">');
+    textInput.attr('class','form-control')
     textDiv.append(textInput);
 
     // Show existing text from local storage
@@ -80,7 +81,7 @@ function createTimeBlock(hour) {
     const btnDiv = $("<div>");
     btnDiv.attr('class', 'button-col col-2 d-flex justify-content-center p-0 rounded-lg');
     const btnSave = $("<button>");
-    btnSave.attr('class', 'btn btn-primary save-button btn-block');
+    btnSave.attr('class', 'btn btn-primary save-button btn-block border-dark');
     const iconSave = $("<i class='fas fa-save fa-2x'></i>")
     btnSave.append(iconSave);
 
